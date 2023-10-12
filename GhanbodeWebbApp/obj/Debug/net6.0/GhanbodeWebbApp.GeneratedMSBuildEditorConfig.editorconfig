@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\W0835765\Documents\GitHub\WEB_452_asp.net-2\GhanbodeWebbApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/FootballPlayers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGJhbGxQbGF5ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/FootballPlayers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGJhbGxQbGF5ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/FootballPlayers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGJhbGxQbGF5ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/FootballPlayers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGJhbGxQbGF5ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/FootballPlayers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGJhbGxQbGF5ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/GhanbodeWebbApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

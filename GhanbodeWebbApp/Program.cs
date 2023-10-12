@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<GhanbodeWebbAppContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("GhanbodeWebbAppContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
