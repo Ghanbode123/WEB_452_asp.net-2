@@ -26,6 +26,21 @@ namespace GhanbodeWebbApp.Controllers
             return View();
         }
 
+        public IActionResult Todolist(int id, string title, string description)
+        {
+            TodolistItem newItem = new TodolistItem
+            {
+                Id = id,
+                Title = title,
+                Description = description
+            };
+
+            todolist.Add(newItem);
+
+            
+            return View("Todolist", todolist);
+        }
+
     }
     
 }
