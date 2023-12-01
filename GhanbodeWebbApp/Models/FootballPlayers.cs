@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GhanbodeWebbApp.Models;
+namespace GhanbodeWebbApp.Models
 {
     public class FootballPlayers
     {

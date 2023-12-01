@@ -1,7 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extension.DependencyInJection;
 
 namespace GhanbodeWebbApp.Models
 {
@@ -51,7 +51,7 @@ namespace GhanbodeWebbApp.Models
                         Price = "$150.00M",
                         Description = "He is 186m tall plays for Nigeria National Team (super eagles) and lead Napoli to their first league trophy in 33years",
 
-                    },
+                    }
                 );
                  context.SaveChanges();
             }
