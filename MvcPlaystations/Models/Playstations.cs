@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-namespace GhanbodeWebbApp.Models;
+namespace MvcPlaystations.Models;
 
-public class Playstation
+    public class Playstations
 {
     public int Id { get; set; }
     public string ModelName { get; set; }
@@ -11,3 +11,4 @@ public class Playstation
     public DateTime ReleaseDate { get; set; }
   
 }
+

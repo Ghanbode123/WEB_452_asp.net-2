@@ -4,14 +4,14 @@ using System;
 using System.Linq;
 
 
-namespace GhanbodeWebbApp.Models
+namespace MvcPlaystations.Models
 {
     public static class SeedData
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new GhanbodeWebbAppContext(
-                serviceProvider.GetRequiredService<DbContextOptions<GhanbodeWebbAppContext>>()))
+            using (var context = new MvcPlaystationsContext(
+                serviceProvider.GetRequiredService<DbContextOptions<MvcPlaystationsContext>>()))
             {
                 // Look for any Playstations.
                 if (context.Playstations.Any())
@@ -20,7 +20,7 @@ namespace GhanbodeWebbApp.Models
                 }
 
                 context.Playstations.AddRange(
-                    new Playstation
+                    new Playstations
                     {
                         ModelName = "PS5",
                         Manufacturer = "Sony",
@@ -29,7 +29,7 @@ namespace GhanbodeWebbApp.Models
                         ReleaseDate = DateTime.Parse("2020-11-12")
                     },
 
-                    new Playstation
+                    new Playstations
                     {
                         ModelName = "PS4",
                         Manufacturer = "Sony",
@@ -38,7 +38,7 @@ namespace GhanbodeWebbApp.Models
                         ReleaseDate = DateTime.Parse("2013-11-15")
                     },
 
-                    new Playstation
+                    new Playstations
                     {
                         ModelName = "Xbox Series X",
                         Manufacturer = "Microsoft",
@@ -47,7 +47,7 @@ namespace GhanbodeWebbApp.Models
                         ReleaseDate = DateTime.Parse("2020-11-10")
                     },
 
-                    new Playstation
+                    new Playstations
                     {
                         ModelName = "Nintendo Switch",
                         Manufacturer = "Nintendo",
