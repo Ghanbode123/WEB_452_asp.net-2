@@ -33,6 +33,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+             <td>
+                        <input type="checkbox" value="@item.Id" name="selectedPlaystations">
+                    </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ModelName)
             </td>

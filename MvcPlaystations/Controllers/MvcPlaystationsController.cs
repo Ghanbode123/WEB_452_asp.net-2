@@ -53,7 +53,7 @@ namespace MvcPlaystations.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ModelName,Manufacturer,StorageCapacityGB,Price,ReleaseDate")] Playstations playstations)
+        public async Task<IActionResult> Create([Bind("Id,ModelName,Manufacturer,StorageCapacityGB,Price,ReleaseDate,Version,Colour")] Playstations playstations)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace MvcPlaystations.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ModelName,Manufacturer,StorageCapacityGB,Price,ReleaseDate")] Playstations playstations)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ModelName,Manufacturer,StorageCapacityGB,Price,ReleaseDate,Version,Colour")] Playstations playstations)
         {
             if (id != playstations.Id)
             {
