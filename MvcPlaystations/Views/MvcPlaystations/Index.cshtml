@@ -9,6 +9,19 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-action="Index" method="get">
+    <div>
+        <label for="searchBy">Search by:</label>
+        <select name="searchBy" id="searchBy">
+            <option value="RELEASEDATE">Release Date</option>
+            <option value="MANUFACTURER">Manufacturer</option>
+            <option value="PRICE">Price</option>
+        </select>
+        <input type="text" name="searchString" placeholder="Search value" />
+        <input type="submit" value="Search" />
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>

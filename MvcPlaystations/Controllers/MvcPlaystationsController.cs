@@ -19,8 +19,29 @@ namespace MvcPlaystations.Controllers
         }
 
         // GET: MvcPlaystations
-        public async Task<IActionResult> Index()
+        
+        public async Task<IActionResult> Index(string searchString, string searchBy)
         {
+             var playstations = from p in _context.Playstations
+                               select p;
+            if (searchBy == "RELEASEDATE") 
+            {
+                if (DateTime.TryParse(searchString, out var date))
+                {
+                    playstations = playstations.Where(p => p.ReleaseDate.Date == date.Date);
+                }
+            }      
+            else if (searchBy == "MANUFACTURER")
+            {
+                playstations = playstations.Where(p => p .Manufacturer.Contains(searchString));
+            }  
+            else if (searchBy == "PRICE")
+            {
+                if (decimal.TryParse(searchString, out var price))
+                {
+                    playstations = playstations.Where(p => p.Price == price);
+                }
+            }        
             return View(await _context.Playstations.ToListAsync());
         }
 
