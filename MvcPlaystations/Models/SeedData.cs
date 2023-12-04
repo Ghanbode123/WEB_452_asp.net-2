@@ -26,7 +26,9 @@ namespace MvcPlaystations.Models
                         Manufacturer = "Sony",
                         StorageCapacityGB = 825,
                         Price = 499.99M,
-                        ReleaseDate = DateTime.Parse("2020-11-12")
+                        ReleaseDate = DateTime.Parse("2020-11-12"),
+                        Version = 1.0M,
+                        Colour = "Black"
                     },
 
                     new Playstations
@@ -35,7 +37,9 @@ namespace MvcPlaystations.Models
                         Manufacturer = "Sony",
                         StorageCapacityGB = 500,
                         Price = 299.99M,
-                        ReleaseDate = DateTime.Parse("2013-11-15")
+                        ReleaseDate = DateTime.Parse("2013-11-15"),
+                        Version = 2.0M,
+                        Colour = "Blue"
                     },
 
                     new Playstations
@@ -44,7 +48,9 @@ namespace MvcPlaystations.Models
                         Manufacturer = "Microsoft",
                         StorageCapacityGB = 1000,
                         Price = 499.99M,
-                        ReleaseDate = DateTime.Parse("2020-11-10")
+                        ReleaseDate = DateTime.Parse("2020-11-10"),
+                        Version = 3.0M,
+                        Colour = "White"
                     },
 
                     new Playstations
@@ -53,7 +59,9 @@ namespace MvcPlaystations.Models
                         Manufacturer = "Nintendo",
                         StorageCapacityGB = 32,
                         Price = 299.99M,
-                        ReleaseDate = DateTime.Parse("2017-03-03")
+                        ReleaseDate = DateTime.Parse("2017-03-03"),
+                        Version = 4.0M,
+                        Colour = "Golden"
                     }
                 );
 
