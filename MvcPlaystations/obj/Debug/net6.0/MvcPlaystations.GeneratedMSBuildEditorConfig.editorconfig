@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcPlaystations
 build_property.RootNamespace = MvcPlaystations
-build_property.ProjectDir = C:\Users\W0835765\Documents\GitHub\WEB_452_asp.net-2\MvcPlaystations\
+build_property.ProjectDir = c:\Users\W0835765\Documents\GitHub\WEB_452_asp.net-2\MvcPlaystations\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\W0835765\Documents\GitHub\WEB_452_asp.net-2\MvcPlaystations
+build_property.MSBuildProjectDirectory = c:\Users\W0835765\Documents\GitHub\WEB_452_asp.net-2\MvcPlaystations
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Home/Index.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Home/Privacy.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Create.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Delete.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Details.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Edit.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Index.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/NotFound.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/MvcPlaystations/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXZjUGxheXN0YXRpb25zXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/Error.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/_ViewImports.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/_ViewStart.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/_Layout.cshtml]
+[c:/Users/W0835765/Documents/GitHub/WEB_452_asp.net-2/MvcPlaystations/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kmjnwfeqq7
