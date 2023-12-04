@@ -169,6 +169,22 @@ namespace MvcPlaystations.Controllers
             var hiddenPlaystations = await _context.Playstations.Where(p => p.IsHidden). ToListAsync();
             return View(hiddenPlaystations);
         }
+        public async Task<IActionResult> DeleteAll()
+        {
+            return View();
+        }
+        [HttpPost, ActionName("DeleteAll")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmedAll()
+        {
+            var allPlaystations = _context.Playstations.ToList();
+            if (allPlaystations.Count > 0)
+            {
+                _context.Playstations.RemoveRange(allPlaystations);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
 
         private bool PlaystationsExists(int id)
         {
