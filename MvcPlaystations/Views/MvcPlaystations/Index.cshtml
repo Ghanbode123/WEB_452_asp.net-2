@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                <!-- empty header for checkbox -->
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.ModelName)
             </th>
             <th>
@@ -27,15 +30,21 @@
             <th>
                 @Html.DisplayNameFor(model => model.ReleaseDate)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Version)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Colour)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-             <td>
-                        <input type="checkbox" value="@item.Id" name="selectedPlaystations">
-                    </td>
+            <td>
+                <input type="checkbox" value="@item.Id" name="selectedPlaystations">
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ModelName)
             </td>
@@ -50,6 +59,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Version)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Colour)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
