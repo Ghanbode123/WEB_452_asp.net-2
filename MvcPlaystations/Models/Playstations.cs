@@ -11,6 +11,7 @@ namespace MvcPlaystations.Models;
     public DateTime ReleaseDate { get; set; }
     public decimal Version { get; set; }
      public string? Colour { get; set; }
+       public bool IsHidden { get; set; }
   
 }
 

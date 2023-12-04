@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MvcPlaystations.Migrations
 {
     [DbContext(typeof(MvcPlaystationsContext))]
-    [Migration("20231204171501_InitialCreate")]
+    [Migration("20231204225153_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,12 +24,16 @@ namespace MvcPlaystations.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Colour")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsHidden")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Manufacturer")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ModelName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
@@ -40,6 +44,9 @@ namespace MvcPlaystations.Migrations
 
                     b.Property<int>("StorageCapacityGB")
                         .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Version")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

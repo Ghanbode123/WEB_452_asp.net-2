@@ -25,6 +25,9 @@ namespace MvcPlaystations.Migrations
                     b.Property<string>("Colour")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsHidden")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Manufacturer")
                         .HasColumnType("TEXT");
 

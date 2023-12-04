@@ -15,11 +15,14 @@ namespace MvcPlaystations.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ModelName = table.Column<string>(type: "TEXT", nullable: false),
-                    Manufacturer = table.Column<string>(type: "TEXT", nullable: false),
+                    ModelName = table.Column<string>(type: "TEXT", nullable: true),
+                    Manufacturer = table.Column<string>(type: "TEXT", nullable: true),
                     StorageCapacityGB = table.Column<int>(type: "INTEGER", nullable: false),
                     Price = table.Column<decimal>(type: "TEXT", nullable: false),
-                    ReleaseDate = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    ReleaseDate = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Version = table.Column<decimal>(type: "TEXT", nullable: false),
+                    Colour = table.Column<string>(type: "TEXT", nullable: true),
+                    IsHidden = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
