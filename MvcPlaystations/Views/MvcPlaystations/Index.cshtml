@@ -8,6 +8,8 @@
 
 <p>
     <a asp-action="Create">Create New</a>
+    <a asp-action="Create">See HIDDEN PLAYSTATIONS</a>
+    <a asp-action="Create">DELETE ALL PLAYSTATIONS </a>
 </p>
 <form asp-action="Index" method="get">
     <div>
@@ -17,11 +19,11 @@
             <option value="MANUFACTURER">Manufacturer</option>
             <option value="PRICE">Price</option>
         </select>
-        <input type="text" name="searchString" placeholder="Search value" />
+        <input type="text" name="searchString" placeholder="Search " />
         <input type="submit" value="Search" />
     </div>
 </form>
-
+<form asp-action="HideSelected">
 <table class="table">
     <thead>
         <tr>
@@ -88,3 +90,6 @@
 }
     </tbody>
 </table>
+<input type="submit" value="Hide Selected Playstations" class="btn btn-warning"/>
+</form>
+
