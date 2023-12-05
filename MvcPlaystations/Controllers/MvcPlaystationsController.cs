@@ -33,7 +33,7 @@ namespace MvcPlaystations.Controllers
             }      
             else if (searchBy == "MANUFACTURER")
             {
-                playstations = playstations.Where(p => p .Manufacturer.Contains(searchString));
+                playstations = playstations.Where(p => p.Manufacturer.Contains(searchString));
             }  
             else if (searchBy == "PRICE")
             {
